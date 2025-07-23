@@ -380,6 +380,6 @@ If using for academic, hackathon, or competition purposes, please cite as:
 
 - **Data Sources:** Regulatory agencies, open food safety databases, simulated records.
 - **Major Libraries/Frameworks:** Streamlit, scikit-learn, pandas, XGBoost, matplotlib, seaborn, pyngrok
-- **Special Thanks:** [Ashish Kumar](https://github.com/Ashishkumar448), [Mentor/Support], and all contributors!
+- **Special Thanks:**  [Mentor/Support], and all contributors!
 
 ---
