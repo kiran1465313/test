@@ -5,7 +5,17 @@
 Food adulteration is a major threat to public health, industry reputation, and consumer trust. Early and accurate detection helps save lives, money, and brand value.
 
 ---
+**Team Name:** TEAM(SC1)_8
+## 👥 Team Members
 
+| S.No. | Name                  | Roll Number        |
+|-------|-----------------------|-------------------|
+| 1     | Ashish Kumar Jena     | 24CSEDS018        |
+| 2     | Kiran Surya Sahukar   | 24CSEAIML148      |
+| 3     | Om Prasad Bartia      | 24CSEAIML122      |
+| 4     | Dipak Kumar Behera    | 24CSEAIML247      |
+
+---
 ## 🤖 What Does This App Do?
 
 - **Predicts risk** (Minor/Moderate/Severe) for any new food sample.
