@@ -157,13 +157,33 @@ print("Public URL:", ngrok.connect(8501))
 
 ---
 
-## 🎉 Why Use This?
+## 🛠️ Using the Prediction App
 
-- **Instantly identify critical adulteration risks**
-- **Role-specific analytics for every food safety stakeholder**
-- **No coding required to update datasets, run predictions, or share insights**
-- **Modern, visual, actionable analytics in a click**
+### 🔮 Predicting a New Sample
+
+- Use the **sidebar form** to enter details for any food sample:
+    - Product name, brand, category, adulterant, health risk, detection month and year.
+- Click **Predict**.
+- The app will instantly display:
+    - The predicted severity label (**Minor, Moderate, or Severe**)
+    - The confidence score for the prediction (in %)
+- The new sample, along with its predicted risk, is added to all dashboard visualizations in real time for immediate impact analysis.
+
+### 🆕 Adding/Uploading New Food Data
+
+- Under **"Upload New Data File (Optional)"** in the sidebar, click **Browse files** or drag and drop your own CSV.
+- The app will automatically use the uploaded data for:
+    - All analytics and dashboard charts
+    - All future predictions
+    - Filtering, role-specific tabs, and alerts
+- No code changes, app restarts, or manual steps are needed—data uploads are seamless.
+
+### 🔄 How Uploaded Data is Used
+
+- The uploaded CSV **overrides the default dataset** for the entire session.
+- All dashboard features (KPIs, time trends, heatmaps, scenario analysis) and predictions will reflect your uploaded data instantly.
+- You can experiment with testing batches, regulatory reporting, or simulation scenarios by simply uploading different files.
+- To revert to the default dataset, just **refresh the page** and skip the upload.
 
 ---
 
-*Made for safer food and smarter decisions, powered by AI and data.*
