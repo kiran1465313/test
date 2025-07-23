@@ -26,6 +26,104 @@ Food adulteration is a major threat to public health, industry reputation, and c
 | 🤝 **No-Code** | Streamlit UI—intuitive, accessible anywhere |
 
 ---
+## ⚙️ How It Works
+
+Our Food Adulteration Detection System automates the entire workflow—from raw data to decision-ready analytics—using a robust data pipeline and scalable machine learning architecture.
+
+---
+
+### 🔄 Data Pipeline & Flowchart
+
+**Workflow Steps:**
+1. **Data Ingestion**  
+   - Accepts CSV uploads directly via the web dashboard or loads existing data files.
+2. **Preprocessing**  
+   - Categorical encoding (brand, category, adulterant)
+   - Parsing dates; extracting month and year  
+   - Handling missing values, removing label-leaking columns
+3. **Feature Engineering**  
+   - Creation of time-related features
+   - Synthesis of binary safety status fields
+4. **Model Inference**
+   - Data passed through a trained ML pipeline for severity prediction
+5. **Analytics & Visualization**
+   - Instantly updates all dashboard charts, KPIs, alert feeds, and stakeholder-specific panels
+```
+    +----------------+       +--------------+       +-----------------+       +-----------------+       +-------------------+
+    |   Data Input   |  -->  | Preprocess & |  -->  |  Feature Engg.  |  -->  |   ML Model      |  -->  |  Dashboard &      |
+    | (CSV Uploads)  |       |  Cleansing   |       |                 |       |  Inference      |       |  Visualization    |
+    +----------------+       +--------------+       +-----------------+       +-----------------+       +-------------------+
+```
+
+---
+```
+                ┌──────────────────────┐
+                │   User / Analyst     │
+                └─────────┬────────────┘
+                          │
+         ┌────────────────▼────────────────┐
+         │    Streamlit Web Application    │
+         │  - Upload Data / Predict Sample │
+         │  - Interactive Dashboards       │
+         └────────────────┬───────────────┘
+                          │
+              +-----------▼-----------+
+              |      Data Handler     |
+              |  - Loads/filters CSV |
+              +-----------┬-----------+
+                          │
+              +-----------▼-----------+
+              |   Preprocessing &     |
+              |   Feature Engineering |
+              +-----------┬-----------+
+                          │
+         +----------------▼---------------+
+         |     Trained ML Pipeline        |
+         | (Preprocessing + Classifier)   |
+         +----------------┬---------------+
+                          │
+            +-------------▼--------------+
+            |     Severity Prediction    |
+            |  & Dashboard Analytics    |
+            +---------------------------+
+
+```
+
+**Summary:**  
+- Users can upload data and input new sample attributes through the web UI.
+- Every data entry or uploaded file flows through a uniform pipeline for cleaning, transformation, and prediction.
+- The dashboard layer instantly reflects new insights for all roles, combining classic machine learning with real-time, user-driven analytics.
+---
+### 🤖 Machine Learning Model(s) Used
+
+**Model Pipeline:**
+- **Preprocessing:**  
+  - One-hot encoder for categorical fields  
+  - Standard/scaler when needed for numerics  
+  - Drop columns that leak target
+- **Estimator Choices:**  
+  - **Random Forest Classifier (baseline)**
+  - **XGBoost Classifier (optimized, selected via validation F1)**
+- **Unified Pipeline:**  
+  - Combines all steps (feature transforms + model) for seamless deployment
+  - Supports both multiclass (severity) and binary (is_adulterated) tasks
+
+**Typical Model Components:**
+
+| Step                   | Type / Tool                             |
+|------------------------|-----------------------------------------|
+| Data Cleaning          | `pandas`, custom functions              |
+| Feature Extraction     | `pandas`, `sklearn`                     |
+| Categorical Encoding   | `OneHotEncoder`                         |
+| Main Classifier        | `RandomForestClassifier`, `XGBClassifier`|
+| Full Pipeline          | `sklearn.Pipeline`                      |
+| Metrics                | F1, Accuracy, Confusion Matrix          |
+
+---
+
+### 🗺️ Architecture Diagram
+
+
 
 ## 📦 Dataset Description
 
