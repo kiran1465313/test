@@ -211,6 +211,20 @@ Our Food Adulteration Detection System automates the entire workflow—from raw 
 - Bar/stacked bar charts for adulterant distributions
 - Real-time critical alert feeds
 
+
+  ### for executive
+  <img width="1790" height="1181" alt="download" src="https://github.com/user-attachments/assets/c2ed57d7-09ae-43f5-8f32-4e6bea0b298a" />
+
+  ### ANALYST DASHBOARD (For Data Scientists)
+
+  <img width="1987" height="1769" alt="download (1)" src="https://github.com/user-attachments/assets/07683f6d-ce05-462e-9f38-00f9f6e031ee" />
+
+  ### REGULATORY DASHBOARD (For Compliance Officers)
+  <img width="1991" height="1181" alt="download (2)" src="https://github.com/user-attachments/assets/eb7c6194-924e-4ac5-9106-102142cdadca" />
+
+  ### OPERATIONAL DASHBOARD (For Operations Teams)
+   <img width="1790" height="1181" alt="download (3)" src="https://github.com/user-attachments/assets/5e12ffc7-6864-4232-bd6c-1961cf301c79" />  
+
 ### What-If & Scenario Analysis
 
 - Each prediction or CSV upload immediately refreshes every chart, KPI, and dashboard panel for efficient role-based decision-making.
