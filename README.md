@@ -5,7 +5,7 @@
 Food adulteration is a major threat to public health, industry reputation, and consumer trust. Early and accurate detection helps save lives, money, and brand value.
 
 ---
-**Team Name:** TEAM(SC1)_8
+## **Team Name:** TEAM(SC1)_8
 ## 👥 Team Members
 
 | S.No. | Name                  | Roll Number        |
