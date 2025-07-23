@@ -335,7 +335,7 @@ print("Public URL:", ngrok.connect(8501))
 - For bug reports, include steps to reproduce and screenshots if possible.
 
 ### Contact Info
-- Project Lead: [Your Name] (email@example.com)
+- Project Lead: [Ashish Kumar](24cseds018.ashishkumarjena@giet.edu)
 - GitHub Issues: [repo link]/issues
 
 ---
